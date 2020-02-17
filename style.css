@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+section{
+    text-align: justify;    
+    overflow-x: hidden;
+}
+.verticaltext{
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    text-transform: uppercase;
+    z-index: 111;
+    background-color: crimson;
+}
+h3{
+text-transform: uppercase;    
+}
+header{
+    
+    color: rgb(57, 74, 221);
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/* section1 */
+
+#section1{
+    color: whitesmoke;
+    min-height: 100vh;
+    position: relative;
+    background: url('img/img2.webp') no-repeat 0 fixed;
+    background-size: cover;
+}  
+#section1 .section-content {
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#section1 .section-content .section-head{
+    font-size: 55px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+#section1 .section-content p{
+    padding: 0 5% 5% 5%;
+    margin:auto;
+    /* line-height: 3vh; */
+    width: 80%;
+}
+
+#section2{
+    /* background: rgba(255, 255, 255, 0.8); */
+    background: url('img/img5.jpg') repeat fixed;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+#section2 .section-head{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+    text-align: center;
+}
+#section2 .section-content{
+    margin: auto;
+    width: 80%;
+    padding-bottom: 50px;
+}
+#section2 .section-content .section-body{
+    color: rgb(0, 0, 0);
+}
+
+#section3{
+    background: url('img/img3.webp') no-repeat fixed;
+    background-size: cover;
+    color: white;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+#section3 .section-content{
+    margin: auto;
+    width: 80%;
+}
+#section3 table,th,td{
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+#section3 table td{
+    color:white;
+}
+#section3 .section-head{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;    
+    padding-bottom: 45px;
+}
+#section4{
+    background: url('img/img5.jpg') repeat fixed;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+#section4 .section-content{
+    margin: auto;
+    width: 80%;
+}
+#section4 .section-head{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+ul li{
+    line-height: 30px;
+}
