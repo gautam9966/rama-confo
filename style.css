@@ -28,18 +28,22 @@ a{
     text-decoration: none;
     color: white;
 }
+span{
+    white-space: nowrap;
+}
+
 /* section1 */
 
 #section1{
     color: whitesmoke;
     min-height: 100vh;
     position: relative;
-    background: url('img/img2.webp') no-repeat 0 fixed;
+    background: url('img/img2.jpg') no-repeat 0 fixed;
     background-size: cover;
 }  
 #section1 .section-content {
     margin: auto;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 40%;
     -ms-transform: translateY(-50%);
@@ -53,6 +57,7 @@ a{
 #section1 .section-content p{
     padding: 0 5% 5% 5%;
     margin:auto;
+    font-size: 21px;
     /* line-height: 3vh; */
     width: 80%;
 }
@@ -79,7 +84,7 @@ a{
 }
 
 #section3{
-    background: url('img/img3.webp') no-repeat fixed;
+    background: url('img/section3.jpg') no-repeat fixed;
     background-size: cover;
     color: white;
     padding-top:50px;
